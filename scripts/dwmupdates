@@ -1,0 +1,5 @@
+#!/bin/sh
+
+updates="$(aptitude search '~U' | wc -l)"
+icon="🛠️"
+printf " %s %s \\n"  "$icon" "$updates"

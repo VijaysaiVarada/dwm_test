@@ -1,0 +1,6 @@
+#!/bin/bash
+
+battery="$(cat /sys/class/power_supply/BAT0/capacity)"
+
+icon=""
+printf " %s %s \n" "$icon" "$battery"
