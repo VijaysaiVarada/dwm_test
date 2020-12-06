@@ -1,0 +1,1 @@
+sudo apt install xorg xserver-xorg xutils mesa-utils xinit firmware-linix firmware-linux-nonfree dmenu nitrogen firefox-esr thunar  git vim libx11-dev libxft-dev libxinerama-dev build-essentials fonts-font-awesome
